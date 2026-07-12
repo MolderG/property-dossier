@@ -1,5 +1,7 @@
 # Property Dossier
 
+[![CI](https://github.com/MolderG/property-dossier/actions/workflows/ci.yml/badge.svg)](https://github.com/MolderG/property-dossier/actions/workflows/ci.yml)
+
 ## Quick Start
 
 clone → docker compose up -d → pnpm i → pnpm smoke
