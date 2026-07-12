@@ -6,7 +6,7 @@
 	"scripts": {
 		"lint": "biome check .",
 		"format": "biome format --write .",
-		"typecheck": "pnpm -r exec tsc --noEmit",
+		"typecheck": "pnpm -r --filter './packages/**' exec tsc --noEmit",
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"smoke": "tsx scripts/smoke.ts"
